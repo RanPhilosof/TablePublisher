@@ -1,6 +1,5 @@
 ﻿using RP.Communication.ServerClient.Interface;
 using RP.Infra.Logger;
-using RP.TablePublisher;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -10,7 +9,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace StateOfTheArtTablePublisher
+namespace RP.TablePublisherSubscriber
 {
     public class TableSubscriber<TOut, TOutSlim, TId> : ITableSubscriber<TOut, TOutSlim, TId>
     {

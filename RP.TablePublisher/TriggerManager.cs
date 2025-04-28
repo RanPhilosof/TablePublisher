@@ -1,5 +1,4 @@
-﻿using RP.TablePublisher;
-using StateOfTheArtTablePublisher;
+﻿using RP.TablePublisherSubscriber;
 using System;
 using System.Collections.Concurrent;
 using System.Threading;

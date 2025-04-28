@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestPlatform.Utilities;
 using RP.Communication.ServerClient.Interface;
 using RP.Infra.Logger;
-using StateOfTheArtTablePublisher;
+using RP.TablePublisherSubscriber;
 using System;
 using System.Collections.Generic;
 using System.Linq;

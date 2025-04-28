@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Infra\RP.Infra\RP.Infra.csproj" />
+    <ProjectReference Include="..\..\Prober\RP.Prober\RP.Prober.csproj" />
     <ProjectReference Include="..\..\ServerClientCommunication\RP.ServerClientCommunication\RP.ServerClientCommunication.csproj" />
   </ItemGroup>
 

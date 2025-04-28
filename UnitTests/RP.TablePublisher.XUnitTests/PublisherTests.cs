@@ -1,4 +1,7 @@
 using Microsoft.VisualStudio.TestPlatform.Utilities;
+using RP.Communication.ServerClient.Interface;
+using RP.Infra.Logger;
+using RP.TablePublisherSubscriber;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using Xunit.Abstractions;

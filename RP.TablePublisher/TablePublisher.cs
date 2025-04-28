@@ -1,5 +1,6 @@
 ﻿using RP.Communication.ServerClient.Interface;
 using RP.Infra.Logger;
+using RP.Prober.Singleton;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RP.TablePublisher
+namespace RP.TablePublisherSubscriber
 {
     public class RecordAction<TRecord, TId>
     {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestPlatform.Utilities;
 using RP.Communication.ServerClient.Interface;
-using StateOfTheArtTablePublisher;
+using RP.Prober.Singleton;
+using RP.TablePublisherSubscriber;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -13,7 +14,7 @@ using Udp.Communication.ByteArray.ServerClient;
 using Xunit.Abstractions;
 using static PublisherXUnitTests.StateOfTheArtTablePublisherTest;
 
-namespace TablePubSubWithRealCommTests
+namespace PublisherXUnitTests
 {
     public class TablePubSubWithRealCommTests
     {
