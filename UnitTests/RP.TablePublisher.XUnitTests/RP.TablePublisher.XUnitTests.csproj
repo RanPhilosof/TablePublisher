@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\ServerClientCommunication\RP.Udp.Communication.ServerClient\RP.Udp.Communication.ServerClient.csproj" />
-    <ProjectReference Include="..\..\..\ServerClientCommunication\Tcp.Communication.ServerClient\RP.Tcp.Communication.ServerClient.csproj" />
+    <ProjectReference Include="..\..\..\ServerClientCommunication\RP.Tcp.Communication.ServerClient\RP.Tcp.Communication.ServerClient.csproj" />
     <ProjectReference Include="..\..\RP.TablePublisher\RP.TablePublisher.csproj" />
   </ItemGroup>
 
