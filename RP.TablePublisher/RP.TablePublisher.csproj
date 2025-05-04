@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infra\RP.Infra\RP.Infra.csproj" />
-    <ProjectReference Include="..\..\Prober\RP.Prober\RP.Prober.csproj" />
+    <PackageReference Include="RP.Infra" Version="1.0.0" />
+    <PackageReference Include="RP.Prober" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\ServerClientCommunication\RP.ServerClientCommunication\RP.ServerClientCommunication.csproj" />
   </ItemGroup>
 
