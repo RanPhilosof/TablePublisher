@@ -12,6 +12,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+#if NET6_0
+    using Int128 = System.Int64;
+#endif
+
 namespace RP.TablePublisherSubscriber
 {
     public class RecordAction<TRecord, TId>

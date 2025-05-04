@@ -10,6 +10,10 @@ using System.Threading.Tasks;
 using Xunit.Abstractions;
 using static PublisherXUnitTests.StateOfTheArtTablePublisherTest;
 
+#if NET6_0
+    using Int128 = System.Int64;
+#endif
+
 namespace PublisherXUnitTests
 {
     public class StateOfTheArtTablePubSubTest
