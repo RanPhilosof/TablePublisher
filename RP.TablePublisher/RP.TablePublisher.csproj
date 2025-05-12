@@ -8,12 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RP.Infra" Version="1.0.3" />
-    <PackageReference Include="RP.Prober" Version="1.0.7" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\ServerClientCommunication\RP.ServerClientCommunication\RP.ServerClientCommunication.csproj" />
   </ItemGroup>
+
+	<ItemGroup Condition="'$(Configuration)' == 'Debug'">
+		<ProjectReference Include="..\..\Infra\RP.Infra\RP.Infra.csproj" />
+		<ProjectReference Include="..\..\Prober\RP.Prober\RP.Prober.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(Configuration)' == 'Release'">
+		<PackageReference Include="RP.Infra" Version="1.0.3" />
+		<PackageReference Include="RP.Prober" Version="1.0.7" />
+	</ItemGroup>
 
 </Project>
